@@ -1,0 +1,69 @@
+/* For demo */
+/*  .ant-carousel .slick-slide {
+   text-align: center;
+   height: 300px;
+   line-height: 160px;
+   background: none;
+   overflow: hidden;
+ } */
+.ant-carousel .slick-slide img,
+.ImgCon img {
+  width: 100% !important;
+}
+.alice-carousel__dots-item:hover,
+.alice-carousel__dots-item.__active {
+  background: #9a7327;
+}
+.alice-carousel__prev-btn,
+.alice-carousel__next-btn {
+  display: none;
+}
+/* .ant-carousel .slick-slide h3 {
+   color: #fff;
+ }
+ .ant-carousel .slick-slide p {
+  font-family: "Nanum Myeongjo", serif;
+   background: none;
+   position: absolute;
+   letter-spacing: 2px;
+   bottom: 30%;
+   left: 70%;
+   color: #fff;
+   text-shadow: 1px 1px 5px #000000;
+   height: 20px;
+ } */
+/* .c-con {
+   position: relative;
+ }
+ .ant-carousel .slick-dots {
+   bottom: 32%;
+ }
+ .slick-slider .slick-initialized {
+   width: 100%;
+ }
+ .slick-arrow .slick-next {
+   right: 0% !important;
+   display: none !important;
+ }  */
+.alice-carousel__dots li {
+  background: #ccb588;
+}
+@media screen and (max-width: 480px) {
+  .ant-back-top {
+    right: 38px;
+  }
+}
+@media only screen and (min-width: 400px) {
+  .ant-carousel .slick-dots {
+    bottom: 15%;
+  }
+}
+
+@media only screen and (min-width: 760px) {
+  .ant-carousel .slick-dots {
+    bottom: 4%;
+  }
+  .ant-carousel .slick-slide p {
+    bottom: 35%;
+  }
+}

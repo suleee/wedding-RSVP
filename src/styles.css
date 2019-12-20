@@ -1,0 +1,143 @@
+body {
+  background: #eee6e1;
+}
+footer {
+  margin: 0 0 40px 0;
+}
+
+h1 {
+  font-size: 24px;
+  letter-spacing: 7px;
+  margin-bottom: 0;
+}
+h3 {
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  margin: 0 auto;
+  font-family: "Bitter", serif;
+  color: #3a3935;
+}
+footer .copyright {
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+footer {
+  font-size: 12px;
+}
+.add {
+  font-size: 12px;
+  letter-spacing: 6px;
+  padding: 15px 0;
+}
+.title {
+  padding: 0 10% 20px 10%;
+}
+.title p {
+  margin-top: 10px;
+}
+h4 {
+  font-weight: 600;
+  color: rgb(44, 44, 44);
+}
+.toptext {
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  margin: 20px 0 35px 0;
+}
+.toptext h1 {
+  font-family: "Nanum Myeongjo", serif;
+}
+.des {
+  padding: 0 5%;
+  /* text-align: left; */
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+.flexWrap {
+  flex-wrap: wrap;
+}
+.center {
+  justify-content: center;
+}
+
+.topbanner img,
+.imgCon img {
+  width: 100%;
+}
+.imgCon {
+  width: 180px;
+}
+.topbanner {
+  width: 100%;
+  margin: 0 auto;
+}
+.gallery,
+.ourstory,
+.details {
+  padding: 55px 0;
+}
+/* .details-text {
+  margin-top: 25px;
+} */
+#map {
+  width: 100%;
+  height: 400px;
+  background-color: grey;
+}
+
+@media only screen and (min-width: 500px) {
+  h1 {
+    font-size: 26px;
+    letter-spacing: 10px;
+  }
+  .add {
+    font-size: 16px;
+    letter-spacing: 10px;
+  }
+  .container {
+    padding: 0 4%;
+    margin: 0 10%;
+  }
+}
+@media only screen and (min-width: 720px) {
+  .container {
+    margin: 0 5%;
+  }
+  h1 {
+    font-size: 30px;
+    letter-spacing: 14px;
+  }
+}
+@media only screen and (min-width: 800px) {
+  .container {
+    margin: 0 10%;
+  }
+}
+@media only screen and (min-width: 950px) {
+  .container {
+    margin: 0 15%;
+  }
+}
+
+@media only screen and (min-width: 1090px) {
+  .container {
+    margin: 0 20%;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .container {
+    margin: 0 22%;
+  }
+}
+@media only screen and (min-width: 1500px) {
+  .container {
+    margin: 0 24%;
+  }
+}

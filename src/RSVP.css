@@ -1,0 +1,65 @@
+.RSVP {
+  padding: 70px 0 0 0;
+}
+.RSVPbtn {
+  margin: 0 10px;
+}
+.popup-date h4 {
+  font-size: 20px;
+}
+.RSVPbtn .ant-btn {
+  color: white !important;
+  background: #ccb588 !important;
+  border: 1px solid #ccb588 !important;
+  box-shadow: none;
+  width: 100%;
+  border-radius: 0px;
+  height: 47px;
+}
+.RSVPbtn .ant-btn:hover {
+  color: #ccb588 !important;
+  background: none !important;
+  border: 1px solid #ccb588 !important;
+  border: 0;
+  box-shadow: none;
+  width: 100%;
+}
+.RSVP h3 {
+  padding: 0 10%;
+}
+.ant-btn:focus {
+  background: none;
+}
+.rsvp-title {
+  border-bottom: 1px solid rgb(226, 226, 226);
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+.RSVPbtn .ant-btn p {
+  padding-top: 10px;
+}
+
+.nameVerification input {
+  border: 1px solid #484848;
+}
+.nameVerification input:hover {
+  border: 1px solid #cacaca;
+}
+.nameVerification {
+  margin: 10px;
+}
+.nameVerification input {
+  height: 47px;
+}
+.ant-radio-wrapper {
+  margin-right: 25px;
+}
+.num .ant-form-item-label {
+  margin-right: 10px;
+}
+.num .ant-form-item-control {
+  text-align: left;
+}
+.require {
+  font-size: 12px;
+}

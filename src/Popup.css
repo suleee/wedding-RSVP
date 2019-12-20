@@ -1,0 +1,62 @@
+.popup-date {
+  margin: 0 0 25px 0;
+  padding: 20px 0;
+  background: rgb(247, 247, 247);
+  border-radius: 3px;
+}
+.popup-date .date {
+  font-weight: 600;
+  margin-top: 8px;
+}
+.popup-date h2 {
+  margin-bottom: 8px;
+}
+.popup-date p {
+  margin-bottom: 0;
+}
+.popup-date .require {
+  margin: 0;
+}
+.text-center {
+  text-align: center;
+}
+
+.ant-radio-checked .ant-radio-inner,
+.ant-radio-wrapper:hover .ant-radio,
+.ant-radio:hover .ant-radio-inner,
+.ant-radio-input:focus + .ant-radio-inner {
+  border-color: #ccb588;
+}
+.ant-radio-inner::after {
+  background: #ccb588 !important;
+}
+.ant-btn-primary {
+  background: #ccb588;
+  width: 100%;
+  border: none;
+  height: 48px;
+}
+.ant-btn-primary:active,
+.ant-btn-primary.active,
+.ant-btn-primary:hover,
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+  background: #a7946e;
+}
+.name-con {
+  flex-wrap: wrap;
+}
+.menu {
+  text-align: left;
+}
+@media only screen and (min-width: 578px) {
+  .comments .ant-form-item-control-wrapper {
+    width: 80%;
+  }
+  /* .email .ant-form-item-control-wrapper {
+    width: 85%;
+  } */
+  .textbox .ant-form-item-control-wrapper {
+    width: 95%;
+  }
+}
